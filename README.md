@@ -3,9 +3,15 @@ The model is trained on PASCAL VOC2007+ PASCAL VOC2012 with VGG-16. The input im
 
 
 ## Evaluation
+### Folders and Files
+Make sure that your copy contains following folders:
+- data
+- weights
+- utils
+- layers
 
 ### Data
-Add the VOCdevkit(VOC2007 VOC2012) under data folder either with processed ```.xml``` files, please contact us at <342718505@qq.com>. Or you can run the ```process.py``` data with origin PASCAL VOC dataset to derive ```NEWAnnotaions```.
+Add the VOCdevkit(VOC2007 VOC2012) under data folder with processed ```.xml``` files, please contact us at <342718505@qq.com>. Or you can run the ```process.py```  with origin PASCAL VOC dataset to derive ```NEWAnnotaions```.
 
 ### Download Model
 - our model[(RFSSD)](https://jbox.sjtu.edu.cn/l/I510eA)
