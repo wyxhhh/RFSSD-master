@@ -5,7 +5,7 @@ The model is trained on PASCAL VOC2007+ PASCAL VOC2012 with VGG-16. The input im
 ## Evaluation
 
 ### Data
-Add the VOCdevkit(VOC2007 VOC2012) under data folder either with processed ```.xml``` files, please contact us at <342718505@qq.com>. Or you can run the process data with origin PASCAL VOC dataset to derive ```NEWAnnotaions```.
+Add the VOCdevkit(VOC2007 VOC2012) under data folder either with processed ```.xml``` files, please contact us at <342718505@qq.com>. Or you can run the ```process.py``` data with origin PASCAL VOC dataset to derive ```NEWAnnotaions```.
 
 ### Download Model
 - our model[(RFSSD)](https://jbox.sjtu.edu.cn/l/I510eA)
@@ -33,4 +33,4 @@ We implemented parsing object size via ```process.py```, where we sort all the o
 medium (M: next 40%); large (L: next 20%); extra-large (XL: next 10%). Finally, we write this feature into the object attributes.
 
 ### Modification of SSD
-We add DS_module1, DS_module2, DS_module3 for down-sampling operation, ConvBlock for typical 3×3 conv. and IBN for batch norm operation. Furthermore, we combine the bottom-up scheme and top-down scheme with the original structure. The network structure are shown in our report. 
+We add DS_module1, DS_module2, DS_module3 for down-sampling operation, ConvBlock for typical 3×3 conv. and IBN for batch norm operation. Furthermore, we combine the bottom-up scheme and top-down scheme with the original structure. The network structure is shown in our report. 
