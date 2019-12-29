@@ -23,5 +23,5 @@ We implemented parsing object size via ```process.py```, where we sort all the o
 medium (M: next 40%); large (L: next 20%); extra-large (XL: next 10%). Finally, we write this feature into the object attributes.
 
 ### Modification of SSD
-We add DS_module1, DS_module2, DS_module3 to perform down-sampling operation and combine the bottom-up scheme and top-down scheme with the original structure.
+We add DS_module1, DS_module2, DS_module3 for down-sampling operation, ConvBlock for typical $3 \times 3$ conv. and combine the bottom-up scheme and top-down scheme with the original structure. The network structure are shown in our report. 
 
