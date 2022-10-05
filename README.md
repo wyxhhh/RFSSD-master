@@ -11,7 +11,7 @@ Make sure that your copy contains following folders:
 - layers
 
 ### Data
-Add the VOCdevkit(VOC2007 VOC2012) under data folder with processed ```.xml``` files, please contact us at <342718505@qq.com>. Or you can run the ```process.py```  with origin PASCAL VOC dataset to derive ```NEWAnnotaions```.
+Add the VOCdevkit(VOC2007 VOC2012) under data folder with processed ```.xml``` files, please contact us. Or you can run the ```process.py```  with original PASCAL VOC dataset to derive ```NEWAnnotaions```.
 
 ### Download Model
 - our model[(RFSSD)](https://jbox.sjtu.edu.cn/l/I510eA)
